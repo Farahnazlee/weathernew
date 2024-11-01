@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherWise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="welcome-card">
+            <div class="icon-container">
+                <span class="icon">🌤️</span>
+                <span class="icon">🌧️</span>
+                <span class="icon">⛅</span>
+                <span class="icon">❄️</span>
+            </div>
+            <h1 class="title">WeatherWise</h1>
+            <p class="description">Your intelligent weather companion providing real-time updates, smart activity recommendations, and comprehensive forecasts to help you plan your day with confidence.</p>
+            <button class="get-started-button" onclick="navigateToWeather()">Get Started</button>
+        </div>
+    </div>
+
+    <script>
+        function navigateToWeather() {
+            // Redirects to the weather page
+            window.location.href = 'weather.html';
+        }
+    </script>
+</body>
+</html>
